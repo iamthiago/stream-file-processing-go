@@ -1,0 +1,9 @@
+file-service-importer:
+  partner-id: my-partner
+  gcs:
+    origin:
+      bucket: origin-bucket
+      prefix: partner/category
+    destination:
+      bucket: destination-bucket
+      prefix: partner/category
